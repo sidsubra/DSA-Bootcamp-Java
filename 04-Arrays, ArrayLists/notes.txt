@@ -1,0 +1,13 @@
+Memory allocation,static(stack) memory, dynamic(heap) memory
+- Reference : https://javachallengers.com/memory-allocation-with-java/
+
+1)Each memory slot holds 1 byte.
+2)1 byte is the same as 8 bits.
+3)Boolean would need 1 bit size but will be stored in 1 byte to avoid having different data in the same memory slot.
+4)Every variable value behind the scenes becomes a binary number so the computer can understand it.
+5)An array will occupy memory space contiguously, this means data has to be stored from back to back.
+6)An array in Java will occupy more space in memory due to the internal JVM configurations.
+7)The static memory in Java is the stack memory.
+8)The stack memory will keep methods and variables alive until they are finished. It’s also thread-safe.
+9)The dynamic memory in Java is the heap memory.
+10)The heap memory in Java is more complex and it’s mainly responsible to manage instances of objects.
