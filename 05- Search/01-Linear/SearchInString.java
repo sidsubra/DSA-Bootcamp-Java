@@ -1,3 +1,4 @@
+//Linear search - unsorted array
 // Search for a character in  a string 
 //Note: str.toCharArray()
 //Note: str.charAt(i)
